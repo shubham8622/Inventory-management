@@ -1,0 +1,45 @@
+@media (max-width:1024px){
+    .product-panel{
+        width: 100%;
+    }
+    .sidebar{
+        box-shadow: none;
+    }
+    .product-inventory{
+        height: auto;
+        width: 95%;
+    }
+    form#productForm{
+        width: 100%;
+    }
+    input#pWeight,
+    input#pBrand, 
+    .row .quantity{
+        border-left: none;
+    }
+    .row{
+        border-top: none;
+        flex-grow: 1;
+        height: 27px;
+    }
+    #productForm input{
+        background-color: antiquewhite;
+        flex-grow: 1;
+    }
+    .product-name{
+        padding: 10px;
+    }
+}
+@media (max-width:525px){
+    table tr td,
+    table tr th{
+        font-size: 12px;
+    }
+}
+@media (max-width:375px){
+    table{
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

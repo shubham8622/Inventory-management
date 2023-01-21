@@ -1,0 +1,81 @@
+[
+
+    {
+        "brand":"Lays",
+        "category":"snacks, cookies & chips",
+        "error_code":1,
+        "foodHash":"Potato ChipsLays1.5 ozClassic",
+        "item":"Potato Chips",
+        "quantity": "1",
+        "sizing": "1.5",
+        "sizing_unit": "oz",
+        "sub_type": "Classic"
+    },
+    {
+        "brand":"Pepsi",
+        "category":"Softdrink",
+        "error_code":1,
+        "foodHash":"Mountain DewPepsi2 LClassic",
+        "item":"Mountain Dew",
+        "quantity": "1",
+        "sizing": "1",
+        "sizing_unit": "L",
+        "sub_type": "Classic"
+    },
+    {
+        "brand":"Pepsi",
+        "category":"Softdrink",
+        "error_code":1,
+        "foodHash":"Rockstar Pepsi16 ozClassic",
+        "item":"Rockstar",
+        "quantity": "1",
+        "sizing": "16",
+        "sizing_unit": "oz",
+        "sub_type": "Classic"
+    },
+    {
+        "brand":"Pepsi",
+        "category":"Softdrink",
+        "error_code":1,
+        "foodHash":"Aquafina Pepsi1 LClassic",
+        "item":"Aquafina",
+        "quantity": "1",
+        "sizing": "1",
+        "sizing_unit": "L",
+        "sub_type": "Classic"
+    },
+    {
+        "brand":"Pepsi",
+        "category":"Softdrink",
+        "error_code":1,
+        "foodHash":"Diet Pepsi1 LClassic",
+        "item":"Diet Pepsi",
+        "quantity": "1",
+        "sizing": "1",
+        "sizing_unit": "L",
+        "sub_type": "Classic"
+    },
+    {
+        "brand":"Pepsi",
+        "category":"Softdrink",
+        "error_code":1,
+        "foodHash":"Orange Crush12 ozClassic",
+        "item":"Orange Crush",
+        "quantity": "1",
+        "sizing": "12",
+        "sizing_unit": "oz",
+        "sub_type": "Classic"
+    },
+    {
+        "brand":"Pepsi",
+        "category":"Softdrink",
+        "error_code":1,
+        "foodHash":"Dr Pepper12 ozClassic",
+        "item":"Dr Pepper",
+        "quantity": "1",
+        "sizing": "12",
+        "sizing_unit": "oz",
+        "sub_type": "Classic"
+    }
+
+]

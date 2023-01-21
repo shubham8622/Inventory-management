@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <title>Inventory management</title>
+</head>
+<body>
+    <section>
+        <div class="product-inventory">
+            <div class="product-panel">
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <th>Brand</th>
+                        <th>Type</th>
+                        <th>Weight</th>
+                        <th>Quantity</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="5" colspan="5" style="text-align: center;" id="nodata">No Data</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="sidebar">
+                <div class="text"></div>
+                <div class="product-info">
+                    <form action="" id="productForm">
+                        <div class="product-name">
+                            <input type="text" name="pName" id="pName" placeholder="Product Name" disabled>
+                            <input type="text" name="pBrand" id="pBrand" placeholder="Brand" disabled>
+                            <div class="row">
+                                <input type="text" name="pType" id="pType" placeholder="Type" disabled>
+                                <div class="quantity">
+                                <input type="text" name="pQuantity" id="pQuantity" placeholder="Quantity" disabled>
+                                <div id="quantityOverlay" style="display: none;"></div>
+                                </div>
+                                <input type="text" name="pWeight" id="pWeight" placeholder="Weight" disabled>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <p style="display: none;" id="replaceBtn">Replace</p>
+                            <button type="submit">Add new</button>
+                        </div>
+                    </form>
+                    <div class="speech-btn">
+                        <button id="speechButton"><i class="fa-solid fa-microphone"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="product-quantity" style="display: none;">
+            <div class="cross">
+                <i class="fa fa-times" id="closeForm" aria-hidden="true"></i>
+            </div>
+            <div class="heading">
+                <h3>Update quantity</h3>
+            </div>
+            <form id="quantityForm">
+                <div class="number-field">
+                    <input type="number" name="selectedQuantity" id="selectedQuantity" min="1" max="9">
+                </div>
+                <div class="select-quantity-buttons">
+                    <p value="1">1</p>
+                    <p value="2">2</p>
+                    <p value="3">3</p>
+                    <p value="4">4</p>
+                    <p value="5">5</p>
+                    <p value="6">6</p>
+                    <p value="7">7</p>
+                    <p value="8">8</p>
+                    <p value="9">9</button>
+                </div>
+                <div class="buttons">
+                    <button id = "clearForm">Clear</button>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="./assets/index.js"></script>
+</body>
+</html>
